@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "OS-DEV",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "compilerArgs": [
+                "-ffreestanding",
+                "-D__ARCH_IA32",
+                "-D__LUNAIXOS_DEBUG__",
+                "-include flags.h"
+            ],
+            "defines": [],
+            "compilerPath": "${HOME}/cross-compiler/bin/i686-elf-gcc",
+            "cStandard": "gnu99",
+            "intelliSenseMode": "gcc-x86",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
